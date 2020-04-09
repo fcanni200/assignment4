@@ -2,6 +2,10 @@
 
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width", inital-scale=1.0>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet">
         <title>Franco Cannistra</title>
     </head>
     <body>
@@ -34,14 +38,31 @@
                         <a name="Places"></a>
                         <h2>Places I've Visited</h2>
                         <p>There are many places that I have been to growing up. Some of which include Bush Gardens in Virgina, Disney World in both California and Florida, Miane, Ohio, and Vermont. Two of my most favorite trips that I have been on is my trip to Aspen Colorado, and Italy. I spent one week in Aspen for a ski trip with a few friends. That was the best trip we have ever been on. The skiing out west compared to the east coast are like night and day. My trip to Italy was a good one as well. I went with my family to visit the rest of our family that still lives there. While we were there we visited Rome, Venice and spent the rest of the time in Sicily. Majority of my family lives in a town called Monforte San Giorgio where we spent a month staying at. It was a really awesome experience. </p>
-                        <img src="images/IMG_4042.jpg" style="transform:rotate(180deg);" alt="colorado"> <img src="images/IMG_4027.JPG" alt="colorado"> <img src="https://mapio.net/images-p/98232456.jpg" width = "525" height = "295" alt="Monforte San Giorgio">
+                        <div class="carousel-container">
+                            <i class="fas fa-arrow-left" id = "prevBtn"></i>
+                            <i class="fas fa-arrow-right" id ="nextBtn"></i>
+                            <div class="carousel-slide">
+                                <img src="images./monforte.jpg" width = "640" height = "364" id = "lastClone"alt="Italy">
+                                <img src="images./IMG_4027.JPG" width = "640" height = "364" alt="Colorado">
+                                <img src="images./IMG_4042.jpg" width = "640" height = "364" style="transform:rotate(180deg);" alt="Colorado1">
+                                <img src="images./monforte.jpg" width = "640" height = "364" alt="Italy">
+                                <img src="images./IMG_4027.JPG" width = "640" height = "364" id = "firstClone" alt="Colorado">
+                            </div>
+                        </div>
+                     <script> src="script.js"</script>
+                        
+
+                        
                     </section>
                     <section>
                         <a name="Hobbies"></a>
                         <h2>Hobbies and Intersts</h2>
+                        <p>I have a lot of different hobbies an intersts. </p>
                     </section>
             </article>
         </main>    
     </body>
 </html>
 
+
+                        
